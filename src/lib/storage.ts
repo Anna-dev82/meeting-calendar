@@ -140,6 +140,7 @@ export function seedDemoData(now: Date, theme: Theme = "light"): PersistedState 
       description: "Уточняем цели спринта и распределяем задачи по направлениям.",
       joinLink: "https://meet.google.com/",
       materials: "Повестка: цели спринта, приоритеты, риски.\nМатериалы: ссылка на бэклог/борд.",
+      priority: DEFAULT_MEETING_PRIORITY,
       createdAt: now.getTime() - 250000
     },
     {
@@ -154,6 +155,7 @@ export function seedDemoData(now: Date, theme: Theme = "light"): PersistedState 
       description: "Проверяем визуальную концепцию и финализируем элементы интерфейса.",
       joinLink: "",
       materials: "Ссылка на макет/прототип.\nСписок спорных моментов.",
+      priority: DEFAULT_MEETING_PRIORITY,
       createdAt: now.getTime() - 240000
     },
     {
@@ -168,6 +170,7 @@ export function seedDemoData(now: Date, theme: Theme = "light"): PersistedState 
       description: "Разбираем воронку и определяем следующий шаг оптимизации.",
       joinLink: "",
       materials: "Ссылки на отчёты и дашборды.\nГипотезы на улучшение.",
+      priority: DEFAULT_MEETING_PRIORITY,
       createdAt: now.getTime() - 230000
     },
     {
@@ -182,6 +185,7 @@ export function seedDemoData(now: Date, theme: Theme = "light"): PersistedState 
       description: "Корректируем позиционирование и планируем кампании на месяц вперёд.",
       joinLink: "",
       materials: "Каналы, бюджет, KPI.\nПлан на месяц.",
+      priority: DEFAULT_MEETING_PRIORITY,
       createdAt: now.getTime() - 220000
     },
     {
@@ -196,6 +200,7 @@ export function seedDemoData(now: Date, theme: Theme = "light"): PersistedState 
       description: "План-график поставок и согласование приоритетов по закупкам.",
       joinLink: "",
       materials: "Таблица поставок.\nСписок рисков и сроков.",
+      priority: DEFAULT_MEETING_PRIORITY,
       createdAt: now.getTime() - 210000
     },
     {
@@ -210,6 +215,7 @@ export function seedDemoData(now: Date, theme: Theme = "light"): PersistedState 
       description: "Сводим результаты по каналам и обсуждаем гипотезы на следующую итерацию.",
       joinLink: "",
       materials: "Отчёт по кампаниям.\nДальнейшие гипотезы.",
+      priority: DEFAULT_MEETING_PRIORITY,
       createdAt: now.getTime() - 200000
     },
     {
@@ -224,6 +230,7 @@ export function seedDemoData(now: Date, theme: Theme = "light"): PersistedState 
       description: "Подводим итоги найма и согласуем план собеседований.",
       joinLink: "",
       materials: "Список кандидатов.\nПлан интервью.",
+      priority: DEFAULT_MEETING_PRIORITY,
       createdAt: now.getTime() - 190000
     },
     {
@@ -238,6 +245,7 @@ export function seedDemoData(now: Date, theme: Theme = "light"): PersistedState 
       description: "Обсуждаем архитектурные решения и состояние текущих задач.",
       joinLink: "",
       materials: "Список задач.\nСсылка на RFC/архитектуру.",
+      priority: DEFAULT_MEETING_PRIORITY,
       createdAt: now.getTime() - 180000
     },
     {
@@ -252,6 +260,7 @@ export function seedDemoData(now: Date, theme: Theme = "light"): PersistedState 
       description: "Синхронизируем требования по продуктовой части и критерии приемки.",
       joinLink: "",
       materials: "User stories.\nКритерии приемки.",
+      priority: DEFAULT_MEETING_PRIORITY,
       createdAt: now.getTime() - 170000
     },
     {
@@ -266,6 +275,7 @@ export function seedDemoData(now: Date, theme: Theme = "light"): PersistedState 
       description: "Короткий статус и разбор блокеров.",
       joinLink: "",
       materials: "Список блокеров.\nПлан действий.",
+      priority: DEFAULT_MEETING_PRIORITY,
       createdAt: now.getTime() - 160000
     }
   ];
@@ -284,6 +294,7 @@ export function seedDemoData(now: Date, theme: Theme = "light"): PersistedState 
       description: "Разбираем эффективность размещений и планируем улучшения.",
       joinLink: "",
       materials: "Отчёт по размещениям.\nСписок улучшений.",
+      priority: DEFAULT_MEETING_PRIORITY,
       createdAt: now.getTime() - 150000
     },
     {
@@ -298,6 +309,7 @@ export function seedDemoData(now: Date, theme: Theme = "light"): PersistedState 
       description: "Уточняем лимиты и согласуем прогноз по затратам.",
       joinLink: "",
       materials: "Бюджетная таблица.\nПрогноз расходов.",
+      priority: DEFAULT_MEETING_PRIORITY,
       createdAt: now.getTime() - 140000
     }
   );
