@@ -136,14 +136,15 @@ npm run build
 
 ## Деплой на GitHub Pages
 
-Этот проект настроен под деплой через `gh-pages` и использует относительный `base` для корректной работы на GitHub Pages в подпапке.
+Сборка выводится в папку `docs/` (источник для GitHub Pages).
 
 ```bash
-npm run build
 npm run deploy
 ```
 
-После деплоя проект должен работать без дополнительных настроек.
+В настройках репозитория: **Settings → Pages → Build and deployment → Source: Deploy from a branch → Branch: `main` / Folder: `/docs`**.
+
+Сайт: https://anna-dev82.github.io/meeting-calendar/
 
 ## Важно про MVP (ограничение данных)
 
