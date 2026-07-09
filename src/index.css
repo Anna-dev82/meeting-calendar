@@ -1,0 +1,47 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica,
+    Arial, "Apple Color Emoji", "Segoe UI Emoji";
+}
+
+::selection {
+  background: rgba(59, 130, 246, 0.3);
+  color: inherit;
+}
+
+/* Явные цвета полей — иначе в некоторых браузерах текст «пропадает» на светлом фоне */
+.form-control {
+  color: #0f172a !important;
+  background-color: #ffffff !important;
+  caret-color: #0f172a !important;
+  -webkit-text-fill-color: #0f172a !important;
+  color-scheme: light;
+}
+
+.form-control::placeholder {
+  color: #64748b !important;
+  -webkit-text-fill-color: #64748b !important;
+  opacity: 1;
+}
+
+.dark .form-control {
+  color: #f8fafc !important;
+  background-color: #1e293b !important;
+  caret-color: #f8fafc !important;
+  -webkit-text-fill-color: #f8fafc !important;
+  color-scheme: dark;
+}
+
+.dark .form-control::placeholder {
+  color: #94a3b8 !important;
+  -webkit-text-fill-color: #94a3b8 !important;
+}
+
